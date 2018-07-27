@@ -12,7 +12,7 @@ var rightPressed = false;
 var leftPressed = false;
 
 document.addEventListener("keydown", keyDownHandler, false);
-document.addEventListener("keydown", keyUpHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
 
 function keyDownHandler(e) {
   if(e.keyCode == 39) {
